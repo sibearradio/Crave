@@ -14,9 +14,11 @@
 
 
     <EditText
+        android:inputType="text"
+        android:digits="0,1,2,3,4,5,6,7,8,9,*,qwertzuiopasdfghjklyxcvbnm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Username: "
+        android:text=""
         android:ems="10"
         android:id="@+id/playername"
         android:layout_below="@+id/titleText"
@@ -29,9 +31,11 @@
         />
 
     <EditText
+        android:inputType="text"
+        android:digits="0,1,2,3,4,5,6,7,8,9,*,qwertzuiopasdfghjklyxcvbnm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Password: "
+        android:text=""
         android:ems="10"
         android:id="@+id/playerpassword"
         android:layout_below="@+id/playername"
@@ -39,6 +43,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="3dp"
         android:background="#ffffff"
         />
 
@@ -50,6 +56,8 @@
         android:textColor="#FFFFFF"
         android:id="@+id/titleText"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+
         android:paddingTop="160dp"
          />
 
@@ -66,7 +74,7 @@
     <Button
         android:text="Log in"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:id="@+id/loginButton"
         android:textColor="#FFF"
         android:layout_below="@+id/playerpassword"
@@ -74,13 +82,17 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="7dp"
+
+
         android:background="#A43C23"
+
 
         />
     <Button
         android:text="Log in with FaceBook"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:id="@+id/faceButton"
         android:textColor="#FFF"
         android:layout_below="@+id/loginButton"
@@ -89,12 +101,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="#765A56"
+        android:layout_marginBottom="7dp"
+
 
         />
     <Button
-        android:text="Log in with FaceBook"
+        android:text="Log in with Google"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:id="@+id/googleButton"
         android:textColor="#FFF"
         android:layout_below="@+id/faceButton"
