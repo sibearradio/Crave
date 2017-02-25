@@ -8,60 +8,103 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/orange"
+
     tools:context="com.hacksmith.vmcculloch.crave.MainActivity">
 
-
-
-    <TextView
-        android:text="Please enter your username below"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:id="@+id/instruction"
-        android:textColor="#000000"
-        />
-
-    <TextView
-        android:text="Username:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/username"
-        android:textSize="11sp"
-        android:layout_below="@id/instruction"
-        android:layout_marginTop="20dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text=""
+        android:text=" Username: "
         android:ems="10"
         android:id="@+id/playername"
-        android:layout_marginEnd="20dp"
-        android:layout_alignRight="@id/username"
-        android:layout_below="@id/instruction"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/titleText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
 
-    <Button
-        android:text="Login"
+        />
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:id="@+id/loginButton"
-        android:textColor="#000000"
+        android:text=" Password: "
+        android:ems="10"
+        android:id="@+id/playerpassword"
         android:layout_below="@+id/playername"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        />
 
     <TextView
-        android:text="CRAVE"
+        android:text="KRAVE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:textSize="22sp"
+        android:textColor="#FFFFFF"
         android:id="@+id/titleText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:paddingTop="160dp"
+         />
+
+    <TextView
+        android:text=":"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:textSize="11sp"
+        android:layout_alignTop="@+id/playername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Log in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:textColor="#FFF"
+        android:layout_below="@+id/playerpassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#A43C23"
+
+        />
+    <Button
+        android:text="Log in with FaceBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faceButton"
+        android:textColor="#FFF"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#765A56"
+
+        />
+    <Button
+        android:text="Log in with FaceBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleButton"
+        android:textColor="#FFF"
+        android:layout_below="@+id/faceButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#E37225"
+
+        />
 
 
 </RelativeLayout>
