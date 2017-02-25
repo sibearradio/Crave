@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/orange"
     tools:context="com.hacksmith.vmcculloch.crave.FoodActivity">
 
     <Button
@@ -18,4 +19,40 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:id="@+id/settingsButton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+   />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilebutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/searchbutton"
+        android:layout_toEndOf="@+id/searchbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/profilebutton"
+        android:layout_toEndOf="@+id/profilebutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/randombutton"
+        android:layout_toRightOf="@+id/calendarbutton"
+        android:layout_toEndOf="@+id/calendarbutton"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true" />
+
+
 </RelativeLayout>
