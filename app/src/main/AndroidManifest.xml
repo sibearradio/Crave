@@ -21,7 +21,8 @@
         <activity android:name=".SettingsActivity" />
         <activity android:name=".FoodActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".ResultsActivity"></activity>
     </application>
 
 </manifest>

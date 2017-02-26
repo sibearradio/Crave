@@ -68,14 +68,25 @@
     <EditText
         android:text=""
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="35dp"
         android:id="@+id/search"
-        android:layout_alignRight="@+id/settingsButton"
-        android:layout_alignEnd="@+id/settingsButton"
+        android:layout_alignRight="@+id/profilebutton"
+        android:layout_alignEnd="@+id/profilebutton"
         android:layout_alignParentTop="true"
         android:background="#FFF"
         android:layout_alignLeft="@+id/searchbutton"
         android:layout_alignStart="@+id/searchbutton" />
+
+    <Button
+        android:text="go!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search"
+        android:layout_alignLeft="@+id/settingsButton"
+        android:layout_alignStart="@+id/settingsButton"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/go" />
 
 
 </RelativeLayout>

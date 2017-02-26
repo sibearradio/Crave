@@ -30,8 +30,13 @@ public class FoodActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.calendarbutton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-
                 goCalendar();
+            }
+        });
+        ((Button) findViewById(R.id.go)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                goResults();
             }
         });
     }
@@ -44,5 +49,8 @@ public class FoodActivity extends AppCompatActivity {
     }
     private void goCalendar(){
         startActivity(new Intent(this, CalendarActivity.class));
+    }
+    private void goResults(){
+        startActivity(new Intent(this, ResultsActivity.class));
     }
 }
