@@ -33,7 +33,7 @@
         />
 
     <EditText
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:hint="Enter Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
