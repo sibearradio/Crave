@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 public class FoodActivity extends AppCompatActivity {
@@ -59,6 +60,10 @@ public class FoodActivity extends AppCompatActivity {
         startActivity(new Intent(this, CalendarActivity.class));
     }
     private void goResults(){
-        startActivity(new Intent(this, ResultsActivity.class));
+        EditText field = (EditText) findViewById(R.id.search);
+        String searchString = field.getText().toString();
+        Intent newIntent = new Intent(this,ResultsActivity.class);
+        newIntent.putExtra("list",searchString);
+        startActivity(newIntent);
     }
 }
