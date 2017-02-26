@@ -52,7 +52,7 @@ public class FoodActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                goResults();
+                goCalendar();
             }
         });
     }

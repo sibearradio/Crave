@@ -71,6 +71,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FoodActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/FoodActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+              <folding>
+                <element signature="e#736#884#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CalendarActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/CalendarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,21 +141,6 @@
         </entry>
       </file>
       <file leaf-file-name="activity_calendar.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="e#490#523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_calendar.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-v17/activity_calendar.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -1913,7 +1911,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/raw.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/FoodActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/ProfileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/SettingsActivity.java" />
@@ -1923,6 +1920,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/ResultsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout-v17/activity_calendar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/FoodActivity.java" />
       </list>
     </option>
   </component>
@@ -2604,48 +2602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/FoodActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#963#1110#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1190#1337#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1400#1546#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1624#1771#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-          <folding>
-            <element signature="e#308#341#0" expanded="true" />
-            <element signature="e#366#401#0" expanded="true" />
-            <element signature="e#427#462#0" expanded="true" />
-            <element signature="e#486#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2683,16 +2639,6 @@
         <state relative-caret-position="291">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/ResultsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#386#394#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2735,6 +2681,43 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#308#341#0" expanded="true" />
+            <element signature="e#366#401#0" expanded="true" />
+            <element signature="e#427#462#0" expanded="true" />
+            <element signature="e#486#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/ResultsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#386#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hacksmith/vmcculloch/crave/FoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="e#736#884#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
