@@ -476,7 +476,7 @@ public class Krave{
     File drinkFile = new File("drinkList.txt");
 
     void addItems(){
-        File food = new File("foodList.txt");
+        /*File food = new File("foodList.txt");
         try (Scanner in = new Scanner(food)){
             String temp = "";
             int counter = 0;
@@ -523,7 +523,28 @@ public class Krave{
         catch(Exception e){
             System.out.println("error");
         }
+        */
+        Food pizza = new Food("Pizza", 0, 0, 0);
 
+        ArrayList<String> p_tag = new ArrayList<String>();
+        p_tag.add("cheese");
+        p_tag.add("tomato");
+        p_tag.add("bread");
+
+        pizza.setTag(p_tag);
+
+        Food sushi = new Food("Sushi", 0, 0, 0);
+
+        ArrayList<String> s_tag = new ArrayList<String>();
+        s_tag.add("rice");
+        s_tag.add("raw");
+        s_tag.add("fish");
+
+        sushi.setTag(s_tag);
+
+
+        foodList.add(sushi);
+        foodList.add(pizza);
         // Drink List Scanner implementation
     }
 }
