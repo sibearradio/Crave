@@ -21,7 +21,7 @@ public class ResultsActivity extends AppCompatActivity {
 
         Krave krave = new Krave();
         krave.addItems();
-      
+
         foodResults = krave.resultString(searchList);
 
 

@@ -542,9 +542,38 @@ public class Krave{
 
         sushi.setTag(s_tag);
 
+        Food hamburger = new Food("Hamburger", 0, 0, 0);
+
+        ArrayList<String> h_tag = new ArrayList<String>();
+        h_tag.add("patty");
+        h_tag.add("cheese");
+        h_tag.add("bread");
+
+        hamburger.setTag(h_tag);
+
+        Food steak = new Food("Steak", 0, 0, 0);
+
+        ArrayList<String> st_tag = new ArrayList<String>();
+        st_tag.add("meat");
+        st_tag.add("saucy");
+        st_tag.add("grilled");
+
+        steak.setTag(st_tag);
+
+        Food lobsterRoll = new Food("LobsterRoll", 0, 0, 0);
+
+        ArrayList<String> l_tag = new ArrayList<String>();
+        l_tag.add("fish");
+        l_tag.add("saucy");
+        l_tag.add("bread");
+
+        lobsterRoll.setTag(l_tag);
 
         foodList.add(sushi);
         foodList.add(pizza);
+        foodList.add(hamburger);
+        foodList.add(steak);
+        foodList.add(lobsterRoll);
         // Drink List Scanner implementation
     }
 }
