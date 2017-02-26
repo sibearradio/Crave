@@ -21,7 +21,8 @@ public class ResultsActivity extends AppCompatActivity {
 
         //SEARCH CODE HERE
         foodResults.add("sushi");
-        foodResults.add("sin");
+        foodResults.add("fish and chips");
+        foodResults.add("lobster rolls");
 
         //SETS THE ACTUAL TEXT VIEW
         String displayedString = "";
