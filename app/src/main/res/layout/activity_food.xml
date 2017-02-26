@@ -11,48 +11,76 @@
     android:background="@color/orange"
     tools:context="com.hacksmith.vmcculloch.crave.FoodActivity">
 
+
+
+
     <Button
-        android:text="Settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:id="@+id/settingsButton" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="#765A56"
+        android:layout_margin="2dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:id="@+id/searchbutton"
+        android:layout_weight="1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+
    />
+    <Button
+        android:background="#765A56"
+        android:layout_margin="2dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:id="@+id/randombutton"
+        android:layout_toRightOf="@+id/searchbutton"
+
+        android:layout_alignParentBottom="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="#765A56"
+        android:layout_margin="2dp"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:id="@+id/calendarbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/randombutton"
+         />
+
+    <Button
+        android:background="#765A56"
+        android:layout_margin="2dp"
+
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:id="@+id/profilebutton"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/searchbutton"
-        android:layout_toEndOf="@+id/searchbutton" />
+        android:layout_toRightOf="@+id/calendarbutton"
+        />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/calendarbutton"
+        android:background="#765A56"
+        android:layout_margin="2dp"
+
+        android:id="@+id/settingsButton"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/profilebutton"
         android:layout_toEndOf="@+id/profilebutton" />
 
-    <Button
+    <EditText
+        android:text=""
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/randombutton"
-        android:layout_toRightOf="@+id/calendarbutton"
-        android:layout_toEndOf="@+id/calendarbutton"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_alignParentBottom="true" />
+        android:layout_height="30dp"
+        android:id="@+id/search"
+        android:layout_alignRight="@+id/settingsButton"
+        android:layout_alignEnd="@+id/settingsButton"
+        android:layout_alignParentTop="true"
+        android:background="#FFF"
+        android:layout_alignLeft="@+id/searchbutton"
+        android:layout_alignStart="@+id/searchbutton" />
 
 
 </RelativeLayout>
+
+
