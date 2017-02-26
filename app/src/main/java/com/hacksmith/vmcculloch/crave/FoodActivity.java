@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class FoodActivity extends AppCompatActivity {
 
@@ -13,21 +14,21 @@ public class FoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
 
-        ((Button) findViewById(R.id.settingsButton)).setOnClickListener(new View.OnClickListener(){
+        ((ImageButton) findViewById(R.id.settingsButton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
 
                 goSettings();
             }
         });
-        ((Button) findViewById(R.id.profilebutton)).setOnClickListener(new View.OnClickListener(){
+        ((ImageButton) findViewById(R.id.profilebutton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
 
                 goProfile();
             }
         });
-        ((Button) findViewById(R.id.calendarbutton)).setOnClickListener(new View.OnClickListener(){
+        ((ImageButton) findViewById(R.id.calendarbutton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 goCalendar();

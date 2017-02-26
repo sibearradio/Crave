@@ -12,7 +12,7 @@
     tools:context="com.hacksmith.vmcculloch.crave.FoodActivity">
 
 
-    <Button
+    <ImageButton
         android:background="#765A56"
         android:layout_margin="2dp"
         android:layout_width="68dp"
@@ -20,9 +20,10 @@
         android:id="@+id/randombutton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:src="@drawable/random"/>
 
-    <Button
+    <ImageButton
         android:background="#765A56"
         android:layout_margin="2dp"
         android:layout_width="68dp"
@@ -30,9 +31,10 @@
         android:id="@+id/calendarbutton"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/randombutton"
+        android:src="@drawable/calendar"
          />
 
-    <Button
+    <ImageButton
         android:background="#765A56"
         android:layout_margin="2dp"
 
@@ -40,10 +42,11 @@
         android:layout_height="68dp"
         android:id="@+id/profilebutton"
         android:layout_alignParentBottom="true"
+        android:src="@drawable/user"
         android:layout_toRightOf="@+id/calendarbutton"
         />
 
-    <Button
+    <ImageButton
         android:background="#765A56"
         android:layout_margin="2dp"
         android:id="@+id/settingsButton"
@@ -51,7 +54,9 @@
         android:layout_height="68dp"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/profilebutton"
-        android:layout_toEndOf="@+id/profilebutton" />
+        android:layout_toEndOf="@+id/profilebutton"
+        android:src="@drawable/gear1"
+        />
 
     <EditText
         android:text=""
@@ -60,10 +65,10 @@
         android:id="@+id/search"
         android:layout_alignRight="@+id/profilebutton"
         android:layout_alignEnd="@+id/profilebutton"
+        android:layout_alignLeft="@+id/randombutton"
+        android:layout_alignStart="@+id/randombutton"
         android:layout_alignParentTop="true"
-        android:background="#FFF"
-        android:layout_alignLeft="@+id/settingsButton"
-        android:layout_alignStart="@+id/settingsButton" />
+        android:background="#FFF" />
 
     <Button
         android:text="go!"
