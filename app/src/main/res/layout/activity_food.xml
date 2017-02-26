@@ -62,6 +62,7 @@
 
     <EditText
         android:text=""
+        android:hint="crunchy, tuna, peanuts"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:id="@+id/search"
@@ -80,7 +81,6 @@
         android:layout_alignBottom="@+id/search"
         android:layout_alignLeft="@+id/settingsButton"
         android:layout_alignStart="@+id/settingsButton"
-
         android:id="@+id/go" />
 
 

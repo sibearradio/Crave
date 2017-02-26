@@ -15,7 +15,7 @@
 
     <EditText
         android:inputType="textPersonName"
-
+        android:hint="Enter Username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -34,6 +34,7 @@
 
     <EditText
         android:inputType="textPersonName"
+        android:hint="Enter Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
