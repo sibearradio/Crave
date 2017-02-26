@@ -20,9 +20,19 @@ public class FoodActivity extends AppCompatActivity {
                 go();
             }
         });
+        ((Button) findViewById(R.id.profilebutton)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                goProfile();
+            }
+        });
     }
 
     private void go(){
         startActivity(new Intent(this, SettingsActivity.class));
+    }
+    private void goProfile(){
+        startActivity(new Intent(this, ProfileActivity.class));
     }
 }
