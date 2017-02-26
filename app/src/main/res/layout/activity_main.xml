@@ -140,9 +140,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/googleButton"
         android:layout_centerHorizontal="true"
-        android:background="#765A56"
-        android:textColor="#FFF"
-        android:layout_marginTop="47dp"
+        android:background="#EBDCC2"
+        android:textColor="#000"
+        android:layout_marginTop="40dp"
         android:id="@+id/signUp" />
 
 
