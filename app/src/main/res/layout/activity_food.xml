@@ -17,22 +17,10 @@
         android:layout_margin="2dp"
         android:layout_width="68dp"
         android:layout_height="68dp"
-        android:id="@+id/searchbutton"
-        android:layout_weight="1"
+        android:id="@+id/randombutton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-
-   />
-    <Button
-        android:background="#765A56"
-        android:layout_margin="2dp"
-        android:layout_width="68dp"
-        android:layout_height="68dp"
-        android:id="@+id/randombutton"
-        android:layout_toRightOf="@+id/searchbutton"
-
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:background="#765A56"
@@ -74,8 +62,8 @@
         android:layout_alignEnd="@+id/profilebutton"
         android:layout_alignParentTop="true"
         android:background="#FFF"
-        android:layout_alignLeft="@+id/searchbutton"
-        android:layout_alignStart="@+id/searchbutton" />
+        android:layout_alignLeft="@+id/settingsButton"
+        android:layout_alignStart="@+id/settingsButton" />
 
     <Button
         android:text="go!"

@@ -12,5 +12,32 @@
     tools:context="com.hacksmith.vmcculloch.crave.SettingsActivity">
 
 
+    <TextView
+        android:text="Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/settingsText"
+        android:textSize="25sp"
+        />
 
+
+    <Switch
+        android:text="Millennial Mode "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/noBooze" />
+
+    <Switch
+        android:text="Sound Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noBooze"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/sound" />
 </RelativeLayout>
