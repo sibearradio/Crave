@@ -19,10 +19,16 @@ public class ResultsActivity extends AppCompatActivity {
         Intent intent = getIntent();
         searchList = intent.getStringExtra("list");
 
+//        Krave krave = new Krave();
+//        krave.addItems();
+//        krave.addTags("pizza",1,"cheesy");
+//        foodResults = krave.resultString(searchList);
+
+
         //SEARCH CODE HERE
         foodResults.add("sushi");
         foodResults.add("fish and chips");
-        foodResults.add("lobster rolls");
+        foodResults.add("lobster");
 
         //SETS THE ACTUAL TEXT VIEW
         String displayedString = "";

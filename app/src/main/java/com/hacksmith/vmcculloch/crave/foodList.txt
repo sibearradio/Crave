@@ -1,0 +1,1 @@
+pizza, 1, 0, 0, hamburgers, 1, 0, 0, salad, 1, 1, 1, french fries, 1, 0, 0, sandwich, 1, 0, 0, Alcholic ice cream, 0, 0, 0
