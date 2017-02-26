@@ -30,14 +30,14 @@
         android:layout_below="@+id/settingsText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:id="@+id/noBooze" />
+        android:id="@+id/millSwitch" />
 
     <Switch
         android:text="Sound Off"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/noBooze"
+        android:layout_below="@+id/millSwitch"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:id="@+id/sound" />
+        android:id="@+id/soundSwitch" />
 </RelativeLayout>
