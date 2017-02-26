@@ -17,71 +17,54 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/profileTitle" />
+        android:id="@+id/profileTitle"
+        android:textSize="25sp"
+        />
 
     <TextView
-        android:text="Dietary Preferences"
+        android:text="List your Dietary Preferences and Allergies"
+        android:textSize="17sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:id="@+id/preferences"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listText"
         android:layout_below="@+id/profileTitle"
         android:layout_centerHorizontal="true" />
 
-    <Switch
-        android:text="Vegetarian  "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/preferences"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/vegetarian" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
 
-    <Switch
-        android:text="Vegan  "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/vegetarian"
+        android:inputType="text"
+        android:text=""
+        android:ems="10"
+        android:layout_below="@+id/listText"
         android:layout_centerHorizontal="true"
-        android:id="@+id/vegan" />
-    <Switch
-        android:text="Kosher  "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/vegan"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/kosher" />
+        android:background="#FFF"
+        android:id="@+id/editText" />
 
     <TextView
-        android:text="Allergies"
+        android:text="User Under 21"
+        android:textSize="17sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/allergies"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/kosher" />
+        android:layout_marginTop="20dp"
+        android:id="@+id/ageText"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
 
-    <Switch
-        android:text="No Peanuts  "
+    <ToggleButton
+        android:text="ToggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/allergies"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ageText"
+        android:layout_alignLeft="@+id/ageText"
+        android:layout_alignStart="@+id/ageText"
+        android:id="@+id/ageToggle" />
 
 
-        android:id="@+id/peanuts" />
-    <Switch
-        android:text="No Glutin  "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/peanuts"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/glutin" />
-    <Switch
-        android:text="No Soy  "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/glutin"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/soy" />
 
 
 </RelativeLayout>
