@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.loginButton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-
                 go();
             }
         });

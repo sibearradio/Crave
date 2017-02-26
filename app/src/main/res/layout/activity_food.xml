@@ -12,8 +12,6 @@
     tools:context="com.hacksmith.vmcculloch.crave.FoodActivity">
 
 
-
-
     <Button
         android:background="#765A56"
         android:layout_margin="2dp"
@@ -60,7 +58,6 @@
     <Button
         android:background="#765A56"
         android:layout_margin="2dp"
-
         android:id="@+id/settingsButton"
         android:layout_width="68dp"
         android:layout_height="68dp"
