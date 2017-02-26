@@ -40,6 +40,13 @@ public class FoodActivity extends AppCompatActivity {
                 goResults();
             }
         });
+        ((ImageButton) findViewById(R.id.randombutton)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                goResults();
+            }
+        });
     }
 
     private void goSettings(){

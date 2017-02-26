@@ -14,7 +14,8 @@
 
     <ImageButton
         android:background="#765A56"
-        android:layout_margin="2dp"
+        android:layout_margin="7dp"
+
         android:layout_width="68dp"
         android:layout_height="68dp"
         android:id="@+id/randombutton"
@@ -25,7 +26,7 @@
 
     <ImageButton
         android:background="#765A56"
-        android:layout_margin="2dp"
+        android:layout_margin="7dp"
         android:layout_width="68dp"
         android:layout_height="68dp"
         android:id="@+id/calendarbutton"
@@ -36,7 +37,7 @@
 
     <ImageButton
         android:background="#765A56"
-        android:layout_margin="2dp"
+        android:layout_margin="7dp"
 
         android:layout_width="68dp"
         android:layout_height="68dp"
@@ -48,10 +49,11 @@
 
     <ImageButton
         android:background="#765A56"
-        android:layout_margin="2dp"
+        android:layout_margin="7dp"
         android:id="@+id/settingsButton"
         android:layout_width="68dp"
         android:layout_height="68dp"
+
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/profilebutton"
         android:layout_toEndOf="@+id/profilebutton"
@@ -71,14 +73,14 @@
         android:background="#FFF" />
 
     <Button
-        android:text="go!"
+        android:text="go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#EBDCC2"
         android:layout_alignBottom="@+id/search"
         android:layout_alignLeft="@+id/settingsButton"
         android:layout_alignStart="@+id/settingsButton"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp"
+
         android:id="@+id/go" />
 
 
